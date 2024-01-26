@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe ui';
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo1{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+header img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header{
+    color: black;
+    position: fixed;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    z-index: 3;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    backdrop-filter: blur(5px);
+}
+.burger {
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 3px;
+    margin-left: 60px;
+}
+.burger span {
+    width: 24px;
+    height: 2px;
+    z-index: 5;
+    background-color: black;
+}
+
+h1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: inline block;
+    position: sticky;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+    text-align: center;
+   
+}
+.yellow{
+    border-bottom: 4px solid yellow;
+}
+
+
+
+section h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.GET {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+h2 a{
+    color:black
+}
+
+.FAST{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.EASY{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%; 
+}
+
+.ORDERING{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.LEARN {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: yellow;
+    text-align: center;
+    font-style: inherit;
+    border: 1px solid yellow;
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+.LEARN a {
+    color: black;
+    text-decoration: none;
+}
+
+.MAKE p{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+h3{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%; 
+}
+
+h3 p{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%; 
+}
+
+h4{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%; 
+}
+
+h4 p{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+h5{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+h6{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+h6 a{
+    color:black
+}
+
+hr{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+.COPYRIGHT{
+    float:none;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+.COPYRIGHT a{
+    color: black;
+}
+
+section dl{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+footer{
+    background-color: white;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 25px;
+}
+
+p a{
+    color:black
+}
+
+.photo4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 1%;
+}
+
+.photo7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.photo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.photo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.photo5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.photo6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.LET{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    background-color: yellow;
+    border: 1px solid yellow;
+    width: 300px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.LET a{
+    color: black;
+    text-decoration: none;
+}
+
+.CALL{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 300px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.CALL a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.center{
+    text-align: center;
+    align-self: center;
+    display: block;
+}
