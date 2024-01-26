@@ -234,14 +234,15 @@ hr{
     float:none;
     display: flex;
     flex-direction: column;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 1%;
 }
 
 .COPYRIGHT a{
-    color: black;
+    color: white;
 }
 
 section dl{
